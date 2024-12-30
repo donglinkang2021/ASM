@@ -125,9 +125,9 @@ create database stats;
 
 Workloads are located at:
 
- - IMDB-JOB : job_queries/all_queries.sql
- - Stack : stack-queries/all_queries.sql
- - STATS-CEB : stats_queries/all_queries.sql
+ - IMDB-JOB : queries/job_queries/all_queries.sql
+ - Stack : queries/stack_queries/all_queries.sql
+ - STATS-CEB : queries/stats_queries/all_queries.sql
 
 ## Generate Meta Model (This task should be run inside the asm_test Docker container)
 

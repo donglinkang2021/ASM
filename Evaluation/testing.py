@@ -132,11 +132,11 @@ def test(model_path,
             res[q_name] = ests
 
             if dataset == 'stack':
-                from stack_utils import qname_to_qindex
+                from utils.stack_utils import qname_to_qindex
             elif dataset == 'imdb':
-                from imdb_utils import qname_to_qindex
+                from utils.imdb_utils import qname_to_qindex
             elif dataset == 'stats':
-                from stats_utils import qname_to_qindex
+                from utils.stats_utils import qname_to_qindex
             else:
                 assert False
 

@@ -26,8 +26,8 @@ if __name__ == '__main__':
     parser.add_argument('--query_name', type=str, default=None)
 
     parser.add_argument('--evaluate', help='Evaluates models to compute cardinality bound', action='store_true')
-    parser.add_argument('--query_file', default='job_queries/all_queries.pkl')
-    parser.add_argument('--query_sub_plan_file', default='job_queries/all_sub_plan_queries_str.pkl')
+    parser.add_argument('--query_file', default='queries/job_queries/all_queries.pkl')
+    parser.add_argument('--query_sub_plan_file', default='queries/job_queries/all_sub_plan_queries_str.pkl')
     parser.add_argument('--query_predicate_location', type=str, default=None)
     parser.add_argument('--output_predicate_location', type=str, default=None)
     parser.add_argument('--save_folder', default='job_CE')

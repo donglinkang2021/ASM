@@ -1,0 +1,37 @@
+{
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/bower_components/**": true,
+        "**/dist/**": true,
+        "**/build/**": true,
+        "**/.next/**": true,
+        "**/.nuxt/**": true,
+        "**/.cache/**": true,
+        "**/.tmp/**": true,
+        "**/.vscode-test/**": true,
+        "**/vendor/**": true
+    },
+    "python.analysis.exclude": [
+        "**/__pycache__/**",
+        "**/.git/**",
+        "**/.svn/**",
+        "**/.hg/**",
+        "**/CVS/**",
+        "**/.DS_Store/**",
+        "**/node_modules/**",
+        "**/bower_components/**",
+        "**/dist/**",
+        "**/build/**",
+        "**/.next/**",
+        "**/.nuxt/**",
+        "**/.cache/**",
+        "**/.tmp/**",
+        "**/.vscode-test/**",
+        "**/vendor/**",
+        "**/venv/**",
+        "**/env/**",
+        "**/env_*/**"
+    ]
+}
